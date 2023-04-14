@@ -1,12 +1,10 @@
-<Window 
-    
-    xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"    
-        x:Class="TreeList_DataBinding.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+<Window
+    x:Class="TreeList_DataBinding.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="clr-namespace:TreeList_DataBinding"
-    xmlns:dxi="http://schemas.devexpress.com/winfx/2008/xaml/core/internal"
-        Title="MainWindow" Height="350" Width="525">
+    Title="MainWindow" Height="350" Width="525">
     <Window.DataContext>
         <local:ViewModel/>
     </Window.DataContext>
