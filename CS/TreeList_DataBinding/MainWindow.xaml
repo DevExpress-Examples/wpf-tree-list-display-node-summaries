@@ -10,21 +10,20 @@
     </Window.DataContext>
 
     <Grid>
-        <dxg:TreeListControl Name="treeList" ItemsSource="{Binding SourceList}">
+        <dxg:TreeListControl ItemsSource="{Binding SourceList}">
             
-            <dxg:TreeListControl.Columns>
-                <dxg:TreeListColumn FieldName="Name"/>
-                <dxg:TreeListColumn FieldName="Statistics"/>
-                <dxg:TreeListColumn FieldName="Department"/>
-            </dxg:TreeListControl.Columns>
-            
+            <dxg:TreeListColumn FieldName="Name"/>
+            <dxg:TreeListColumn FieldName="Statistics"/>
+            <dxg:TreeListColumn FieldName="Department"/>
+
             <dxg:TreeListControl.View>
                 <dxg:TreeListView Name="treeListView1" AutoWidth="True" 
-                                  KeyFieldName="ID" ParentFieldName="ParentID" ShowTotalSummary="True"  ShowNodeFooters="True" >
+                                  KeyFieldName="ID" ParentFieldName="ParentID"
+                                  ShowNodeFooters="True">
                     
                     <dxg:TreeListView.NodeSummary>
-                        <dxg:TreeListSummaryItem FieldName="Statistics" SummaryType="Average" ShowInColumn="Statistics"/>
-                        <dxg:TreeListSummaryItem FieldName="Name" SummaryType="Count" ShowInColumn="Name"/>
+                        <dxg:TreeListSummaryItem FieldName="Statistics" SummaryType="Average"/>
+                        <dxg:TreeListSummaryItem FieldName="Name" SummaryType="Count"/>
                     </dxg:TreeListView.NodeSummary>
                     
                 </dxg:TreeListView>

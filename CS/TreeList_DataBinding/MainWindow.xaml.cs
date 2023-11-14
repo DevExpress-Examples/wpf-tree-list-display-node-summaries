@@ -20,13 +20,9 @@ namespace TreeList_DataBinding {
     }
 
     public class ViewModel : ViewModelBase {
-        public ObservableCollection<Employee> SourceList {
-            get { return GetProperty(() => SourceList); }
-            set { SetProperty(() => SourceList, value); }
-        }
-
         public ViewModel() {
             SourceList = Staff.GetStaff();
         }
+        public ObservableCollection<Employee> SourceList { get; set; }
     }
 }
