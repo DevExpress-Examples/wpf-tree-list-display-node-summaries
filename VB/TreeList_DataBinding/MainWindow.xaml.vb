@@ -19,18 +19,10 @@ Namespace TreeList_DataBinding
     Public Class ViewModel
         Inherits ViewModelBase
 
-        Public Property SourceList As ObservableCollection(Of Employee)
-            Get
-                Return GetProperty(Function() Me.SourceList)
-            End Get
-
-            Set(ByVal value As ObservableCollection(Of Employee))
-                SetProperty(Function() SourceList, value)
-            End Set
-        End Property
-
         Public Sub New()
             SourceList = GetStaff()
         End Sub
+
+        Public Property SourceList As ObservableCollection(Of Employee)
     End Class
 End Namespace
