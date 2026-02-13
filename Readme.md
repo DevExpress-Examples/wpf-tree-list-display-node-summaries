@@ -29,7 +29,7 @@ This example demonstrates how to define [node summaries](https://docs.devexpress
 * [WPF Tree List - Generate Node Summaries Based on a View Model Collection](https://github.com/DevExpress-Examples/wpf-tree-list-generate-node-summaries-from-collection)
 * [WPF Data Grid - Display Total Summaries](https://github.com/DevExpress-Examples/how-to-display-total-summaries-e1636)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-tree-list-display-node-summaries&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-tree-list-display-node-summaries&~~~was_helpful=no)
 
